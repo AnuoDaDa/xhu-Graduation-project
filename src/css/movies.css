@@ -1,0 +1,200 @@
+/* Website template from cssmoban.com */
+/*------------------------- Fonts ---------------------------*/
+/*阿里云*/
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('../fonts/oswald-webfont.eot');
+    src: url('../fonts/oswald-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/oswald-webfont.woff') format('woff'),  url('../fonts/oswald-webfont.ttf') format('truetype'),  url('../fonts/oswald-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------------------- 全局样式------------------------*/
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(../images/bg-body.jpg);
+}
+a {
+    outline:none;
+    text-decoration:none;
+}
+a img {
+    border: 0;
+    display: block;
+}
+/*}样式*/
+/*鼠标悬停*/
+p a:hover {
+    color:#e5e5e5!important;
+}
+
+.movies {
+    border:1px solid #4f4f4f;
+    margin:0 auto 152px;
+    overflow:hidden;
+    width:958px;
+}
+.movies h2 {
+    color:#fff;
+    font-family:oswaldregular;
+    font-size:30px;
+    font-weight:400;
+    margin:21px 0;
+    padding:0 0 0 20px;
+    text-transform:uppercase;
+}
+
+.movies ul.tags {
+    list-style:none;
+    margin:0;
+    overflow:hidden;
+    padding:0 0 20px 0;
+    border-bottom: 1px solid #4f4f4f;
+
+}
+
+.movies ul.tags li.parentTags {
+    border-left:none;
+    float:left;
+    width:100%;
+}
+
+.movies ul.tags li.parentTags p {
+    font-size: 18px;
+    display: inline-block;
+    width: 90px;
+}
+
+.tags li.parentTags ul.childrenTags {
+    list-style:none;
+    width: 900px;
+    float:right;
+}
+.tags li.parentTags ul.childrenTags li {
+    width: 80px;
+    float:left;
+    border-left:none;
+    margin-bottom: 10px;
+}
+
+/*电影展示*/
+.movies ul.moviesShow {
+    list-style:none;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+}
+.movies ul li:first-child {
+    border-left:none;
+}
+.movies ul li {
+    border-left:1px solid #4f4f4f;
+    float:left;
+    width:238px;
+}
+.movies ul li a:first-child img {
+    border-top:1px solid #4f4f4f;
+    height:382px;
+    width:241px;
+}
+.movies ul li h3 {
+    border-bottom:1px solid #4f4f4f;
+    border-top:1px solid #4f4f4f;
+    display:block;
+    margin:0;
+    padding:33px 0 32px 20px;
+    color: #FFFFFF;
+    font-family: oswaldregular;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform:uppercase;
+}
+.movies ul li h3 a {
+    color:#FFF;
+    font-family:oswaldregular;
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+    line-height:18px;
+    margin:0;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.movies ul li p {
+    color:#A5A5A5;
+    font-size:12px;
+    line-height:18px;
+    margin:2px 0 0;
+    padding:20px 20px 18px;
+}
+.movies ul li p a {
+    color:#A5A5A5;
+    display:inline;
+    font-style:normal;
+    margin:0;
+    text-decoration:underline;
+}
+.movies ul li a {
+    color:#AF0000;
+    display:block;
+    font-size:12px;
+    font-style:italic;
+    line-height:18px;
+    text-decoration:none;
+}
+.movies ul li a:hover {
+    color:#ff0000;
+}
+.movies img {
+    border-top:1px solid #4F4F4F;
+    display:block;
+}
+.movies div {
+    float:left;
+    min-height:333px;
+    padding:0 0 20px;
+    width:478px;
+}
+.movies div h3 {
+    border-bottom:1px solid #4F4F4F;
+    border-top:1px solid #4F4F4F;
+    color:#FFF;
+    display:block;
+    font-family:oswaldregular;
+    font-size:18px;
+    font-style:normal;
+    font-weight:400;
+    line-height:18px;
+    margin:0;
+    padding:33px 0 32px 20px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.movies div p {
+    color:#A5A5A5;
+    font-size:12px;
+    line-height:18px;
+    margin:25px 0 0;
+    padding:0 25px 0 20px;
+}
+.movies div.section {
+    border-left:1px solid #4F4F4F;
+    width:479px;
+}
+.movies div.section span {
+    color:#fff;
+    display:block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    line-height:18px;
+    margin:25px 0 18px 20px;
+}
+.movies div.section p {
+    margin:0 0 20px;
+}
+.movies div.section p span {
+    display:inline;
+    margin:0;
+}

@@ -1,0 +1,47 @@
+.register div:first-child form div:first-child a {
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    line-height: 26px;
+    font-size: 12px;
+    color:#AF0000;
+    left: 590px;
+}
+
+.register div:first-child form div:first-child a.no-register {
+    top: 0px;
+}
+.register div:first-child form div:first-child a.no-password {
+    top: 45px;
+}
+
+.register div:first-child form div:first-child label.remember-psw span {
+    color:#a5a5a5;
+    position: absolute;
+    left: 380px;
+    font-size:12px;
+    line-height:21px;
+    margin:0 20px 0 0;
+    text-align:right;
+    width:60px;
+    top: -3px;
+}
+.register div:first-child form div:first-child label.remember-psw input {
+    background:none repeat scroll 0 0 #343434;
+    border:1px solid #151515;
+    color:#A5A5A5;
+    cursor:text;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height:auto;
+    padding:5px 5px 4px;
+    position:absolute;
+    left: 275px;
+    top: 0px;
+    width:214px;
+}
+
+
+.register div:first-child form div:first-child a:hover {
+    color:#ff0000;
+}

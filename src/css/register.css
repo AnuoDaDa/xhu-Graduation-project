@@ -1,0 +1,210 @@
+/* Website template from cssmoban.com */
+/*------------------------- Fonts ---------------------------*/
+/*阿里云*/
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('../fonts/oswald-webfont.eot');
+    src: url('../fonts/oswald-webfont.eot?#iefix') format('embedded-opentype'),  url('../fonts/oswald-webfont.woff') format('woff'),  url('../fonts/oswald-webfont.ttf') format('truetype'),  url('../fonts/oswald-webfont.svg#oswaldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*------------------------- 全局样式------------------------*/
+body {
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background: url(../images/bg-body.jpg);
+}
+a {
+    outline:none;
+    text-decoration:none;
+}
+a img {
+    border: 0;
+    display: block;
+}
+/*}样式*/
+/*鼠标悬停*/
+p a:hover {
+    color:#e5e5e5!important;
+}
+
+
+.register {
+    border:1px solid #4F4F4F;
+    margin:0 auto 45px;
+    overflow:hidden;
+    width:958px;
+}
+.register div:first-child {
+    border-right:1px solid #4F4F4F;
+    float:left;
+    width:960px;
+}
+.register div:first-child img {
+    border-bottom:1px solid #4F4F4F;
+    display:block;
+}
+.register div:first-child div {
+    border-bottom:1px solid #4F4F4F;
+    float:none;
+    overflow:hidden;
+    padding:22px 20px;
+    width:auto;
+}
+.register div:first-child div h4 {
+    border:0 none;
+    line-height:27px;
+    padding:0;
+    color: white;
+    font-size: 27px;
+}
+.register div:first-child div > span {
+    color:#A5A5A5;
+    float:left;
+    font-size:12px;
+    line-height:18px;
+}
+.register div:first-child p {
+    color:#A5A5A5;
+    font-size:12px;
+    line-height:18px;
+    margin:17px 0 12px;
+    padding:0 30px 0 20px;
+}
+.register div:first-child div.comment {
+    border-bottom:none;
+    margin:38px 0 0;
+    padding:0;
+}
+.register div:first-child div.comment > span {
+    border-bottom:1px solid #4F4F4F;
+    border-top:1px solid #4F4F4F;
+    clear:both;
+    color:#fff;
+    display:block;
+    float:none;
+    font-size:14px;
+    font-weight:700;
+    line-height:87px;
+    padding:0 20px;
+}
+.register div:first-child div.comment p {
+    margin:18px 0 0;
+    padding:0 30px 0 20px;
+}
+.register div:first-child div.comment p img {
+    float:left;
+    margin:0 19px 0 0;
+}
+.register div:first-child div.comment p span {
+    display:block;
+    color:#666666;
+    font-size:11px;
+    line-height:18px;
+}
+.register div:first-child div.comment a {
+    color:#af0000;
+    float:right;
+    font-size:12px;
+    line-height:18px;
+    margin:0 30px 19px 0;
+    text-decoration:none;
+}
+.register div:first-child div.comment a:hover {
+    text-decoration:none!important;
+    color:#ff0000;
+}
+.register div:first-child form {
+    overflow:hidden;
+    padding:14px 20px;
+    text-align: center;
+}
+.register div:first-child form div:first-child {
+    float:left;
+    margin:0 80px 0 0;
+    padding:0;
+    width:100%;
+    position: relative;
+}
+.register div:first-child form div:first-child label {
+    display:block;
+    float:none;
+    text-align: center;
+    padding:0 0 23px;
+    position: relative;
+}
+.register div:first-child form div:first-child label span {
+    color:#a5a5a5;
+    display:inline-block;
+    float:none;
+    font-size:12px;
+    line-height:21px;
+    margin:0 20px 0 0;
+    text-align:right;
+    width:60px;
+}
+.register div:first-child form div:first-child label input {
+    background:none repeat scroll 0 0 #343434;
+    border:1px solid #151515;
+    color:#A5A5A5;
+    cursor:text;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height:auto;
+    margin:0;
+    padding:5px 5px 4px;
+    position:absolute;
+    width:214px;
+}
+.register div:first-child form div {
+    border:medium none;
+    float:left;
+    padding:0;
+    width:295px;
+}
+.register div:first-child form div label {
+    color:#a5a5a5;
+    float:left;
+    font-size:12px;
+    line-height:21px;
+    margin:0 250px 0 0;
+}
+
+.register div:first-child form div textarea {
+    background:none repeat scroll 0 0 #343434;
+    border:0;
+    color:#A5A5A5;
+    float:left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+    height:102px;
+    margin:0;
+    overflow:auto;
+    padding:5px;
+    resize:none;
+    width:218px;
+}
+.register div:first-child form div input {
+    background:url(../images/interface.png) no-repeat -262px 1px;
+    border:0;
+    clear:both;
+    cursor:pointer;
+    height:24px;
+    margin:10px 0 0 65px;
+    padding:0;
+    width:70px;
+}
+.register div:first-child form div input:hover {
+    background:url(../images/interface.png) no-repeat -262px -24px;
+}
+.register div {
+    float:right;
+    width:237px;
+}
+.register div div:first-child {
+    border-bottom:1px solid #4F4F4F;
+    border-right:medium none;
+    padding:0 0 17px;
+    width:968px;
+    text-align: center;
+}

@@ -176,6 +176,19 @@ p a:hover {
 	margin:0 0 0 20px;
 	text-decoration:none;
 }
+#body.home div:first-child div:first-child a.indexImg {
+	display: inline-block;
+	width: 480px;
+	height: 529px;
+	overflow:hidden;
+	position: relative;
+	border: 1px solid black;
+}
+#body.home div:first-child div:first-child a img {
+	top: -2px;
+	position: absolute;
+	width: 480px;
+}
 #body.home div:first-child div:first-child a:hover {
 	color:#ff0000;
 	text-decoration:none!important;
@@ -193,9 +206,15 @@ p a:hover {
 #body.home div:first-child ul li {
 	border-left:1px solid #4f4f4f;
 	float:left;
-	width:auto;
+}
+#body.home div:first-child ul li.bannerImg {
+	border-left:1px solid #4f4f4f;
+	float:left;
+	width:158px;
+	height:592px;
 }
 #body.home div:first-child ul li h3 {
+	line-height: 23px;
 	margin:23px 0 5px 20px;
 }
 #body.home div:first-child ul li span {
@@ -205,8 +224,20 @@ p a:hover {
 	line-height:18px;
 	margin:1px 0 24px 20px;
 }
+#body.home div:first-child ul li a.sample {
+	display: inline-block;
+	width:158px;
+	height:528px;
+	overflow:hidden;
+	position: relative;
+	border: 1px solid black;
+}
 #body.home div:first-child ul li a img {
 	border-top:1px solid #4f4f4f;
+}
+#body.home div:first-child ul li a.sample.sampleImg {
+	left: -90px;
+	position: absolute;
 }
 #body.home div {
 	border-bottom:none;
@@ -337,142 +368,7 @@ p a:hover {
 	color:#ff0000!important;
 	text-decoration:none!important;
 }
-#body.movies {
-	border:1px solid #4f4f4f;
-	margin:0 auto 152px;
-	overflow:hidden;
-	width:958px;
-}
-#body.movies h2 {
-	color:#fff;
-	font-family:oswaldregular;
-	font-size:30px;
-	font-weight:400;
-	margin:21px 0;
-	padding:0 0 0 20px;
-	text-transform:uppercase;
-}
-#body.movies ul {
-	list-style:none;
-	margin:0;
-	overflow:hidden;
-	padding:0;
-}
-#body.movies ul li:first-child {
-	border-left:none;
-}
-#body.movies ul li {
-	border-left:1px solid #4f4f4f;
-	float:left;
-	width:238px;
-}
-#body.movies ul li a:first-child img {
-	border-top:1px solid #4f4f4f;
-	height:382px;
-	width:241px;
-}
-#body.movies ul li h3 {
-	border-bottom:1px solid #4f4f4f;
-	border-top:1px solid #4f4f4f;
-	display:block;
-	margin:0;
-	padding:33px 0 32px 20px;
-	color: #FFFFFF;
-	font-family: oswaldregular;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 18px;
-	text-transform:uppercase;
-}
-#body.movies ul li h3 a {
-	color:#FFF;
-	font-family:oswaldregular;
-	font-size:18px;
-	font-style:normal;
-	font-weight:400;
-	line-height:18px;
-	margin:0;
-	text-decoration:none;
-	text-transform:uppercase;
-}
-#body.movies ul li p {
-	color:#A5A5A5;
-	font-size:12px;
-	line-height:18px;
-	margin:2px 0 0;
-	padding:20px 20px 18px;
-}
-#body.movies ul li p a {
-	color:#A5A5A5;
-	display:inline;
-	font-style:normal;
-	margin:0;
-	text-decoration:underline;
-}
-#body.movies ul li a {
-	color:#AF0000;
-	display:block;
-	font-size:12px;
-	font-style:italic;
-	line-height:18px;
-	margin:0 0 13px 20px;
-	text-decoration:none;
-}
-#body.movies ul li a:hover {
-	color:#ff0000;
-}
-#body.movies img {
-	border-top:1px solid #4F4F4F;
-	display:block;
-}
-#body.movies div {
-	float:left;
-	min-height:333px;
-	padding:0 0 20px;
-	width:478px;
-}
-#body.movies div h3 {
-	border-bottom:1px solid #4F4F4F;
-	border-top:1px solid #4F4F4F;
-	color:#FFF;
-	display:block;
-	font-family:oswaldregular;
-	font-size:18px;
-	font-style:normal;
-	font-weight:400;
-	line-height:18px;
-	margin:0;
-	padding:33px 0 32px 20px;
-	text-decoration:none;
-	text-transform:uppercase;
-}
-#body.movies div p {
-	color:#A5A5A5;
-	font-size:12px;
-	line-height:18px;
-	margin:25px 0 0;
-	padding:0 25px 0 20px;
-}
-#body.movies div.section {
-	border-left:1px solid #4F4F4F;
-	width:479px;
-}
-#body.movies div.section span {
-	color:#fff;
-	display:block;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-	line-height:18px;
-	margin:25px 0 18px 20px;
-}
-#body.movies div.section p {
-	margin:0 0 20px;
-}
-#body.movies div.section p span {
-	display:inline;
-	margin:0;
-}
+
 #body.ticket-info {
 	border:1px solid #4F4F4F;
 	margin:0 auto 152px;
@@ -1136,6 +1032,7 @@ p a:hover {
 	line-height:18px;
 	text-decoration:none;
 	text-transform:uppercase;
+	line-height: 35px;
 }
 #body.home div div:first-child h3, #body.home div div h3 {
 	margin:36px 0 31px 20px;
